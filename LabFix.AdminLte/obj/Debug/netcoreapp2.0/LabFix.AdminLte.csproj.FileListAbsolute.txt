@@ -1,0 +1,10 @@
+/Users/jiwgle/NetCoreProject/LabFix.AdminLte/LabFix.AdminLte/bin/Debug/netcoreapp2.0/LabFix.AdminLte.deps.json
+/Users/jiwgle/NetCoreProject/LabFix.AdminLte/LabFix.AdminLte/bin/Debug/netcoreapp2.0/LabFix.AdminLte.runtimeconfig.json
+/Users/jiwgle/NetCoreProject/LabFix.AdminLte/LabFix.AdminLte/bin/Debug/netcoreapp2.0/LabFix.AdminLte.runtimeconfig.dev.json
+/Users/jiwgle/NetCoreProject/LabFix.AdminLte/LabFix.AdminLte/bin/Debug/netcoreapp2.0/LabFix.AdminLte.dll
+/Users/jiwgle/NetCoreProject/LabFix.AdminLte/LabFix.AdminLte/bin/Debug/netcoreapp2.0/LabFix.AdminLte.pdb
+/Users/jiwgle/NetCoreProject/LabFix.AdminLte/LabFix.AdminLte/obj/Debug/netcoreapp2.0/LabFix.AdminLte.csproj.CoreCompileInputs.cache
+/Users/jiwgle/NetCoreProject/LabFix.AdminLte/LabFix.AdminLte/obj/Debug/netcoreapp2.0/LabFix.AdminLte.AssemblyInfoInputs.cache
+/Users/jiwgle/NetCoreProject/LabFix.AdminLte/LabFix.AdminLte/obj/Debug/netcoreapp2.0/LabFix.AdminLte.AssemblyInfo.cs
+/Users/jiwgle/NetCoreProject/LabFix.AdminLte/LabFix.AdminLte/obj/Debug/netcoreapp2.0/LabFix.AdminLte.dll
+/Users/jiwgle/NetCoreProject/LabFix.AdminLte/LabFix.AdminLte/obj/Debug/netcoreapp2.0/LabFix.AdminLte.pdb
