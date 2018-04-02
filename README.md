@@ -1,4 +1,4 @@
-# This project test for AdminLTE v.2.4.3
+# This project test Netcore Install AdminLTE v.2.4.3
 
 ```
 $ dotnet new sln
