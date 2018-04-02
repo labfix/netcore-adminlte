@@ -25,7 +25,7 @@ Download AdminLTE : https://adminlte.io/
 
 copy "bower_componets , dist" from "AdminLTE.zip" to "wwwroot"
 
-### EDIT File ----------------------------------------
+### Edit file HomeController.cs
 ```
 $> vi Controllers/HomeController.cs
 ```
@@ -43,7 +43,7 @@ namespace AdminLTE.WebUI.Controllers
    }
 }
 ```
-### EDIT Startup --------------------------------------
+### Edit file Startup.cs
 ```
 using System;
 using System.Collections.Generic;
@@ -83,7 +83,7 @@ namespace AdminLTE.WebUI
    }
 }
 ```
-### Edit _Layout.cshtml
+### Edit file _Layout.cshtml
 
 Copy content from AdminLTE.zip
 ```
@@ -101,7 +101,7 @@ move all style & script to
 ```
 Complete code as below
 
-#### Style ----------------------------------
+#### Style 
 ```
  <environment include="Development">
    <link rel="stylesheet" href="~/bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -116,7 +116,7 @@ Complete code as below
    <link rel="stylesheet" href="~/dist/css/skins/_all-skins.min.css">
  </environment>
 ```
- #### Script ----------------------------------
+ #### Script 
 ```
  <environment include="Development">
    <!-- jQuery 3 -->
@@ -135,7 +135,7 @@ Complete code as below
 </environment>
 ```
 
-### -- Cut And move content -----------------------------------------------
+### Cut And move content index.cshtml
 ```
 <!-- Main content -->
 <section class="content">
@@ -152,7 +152,7 @@ And
 <!-- /.content -->
 ```
 
-### index.cshtml -----------------------------------------------
+### index.cshtml 
 
 Add line at header
 ```
