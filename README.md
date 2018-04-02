@@ -20,7 +20,7 @@ $ touch Views/Home/Index.cshtml
 $ touch Views/Shared/_Layout.cshtml
 ```
 
-# Copy folder
+### Copy folder
 Download AdminLTE : https://adminlte.io/
 
 copy "bower_componets , dist" from "AdminLTE.zip" to "wwwroot"
