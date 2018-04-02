@@ -1,30 +1,35 @@
-## This project test for AdminLTE v.2.4.3
+# This project test for AdminLTE v.2.4.3
 
+```
+$ dotnet new sln
+$ dotnet new web -o LabFix.AdminLte
+$ dotnet sln add LabFix.AdminLte/LabFix.AdminLte.csproj
+$ cd LabFix.AdminLte
+$ dotnet build
+```
+### create foder Controllers , Views/Home , View/Shared
+```
+$ mkdir Controllers Views
+$ mkdir -p Views/Home Views/Shared
+$ touch Controllers/HomeController.cs
+```
 
-$> dotnet new sln
-$> dotnet new web -o LabFix.AdminLte
-$> dotnet sln add LabFix.AdminLte/LabFix.AdminLte.csproj
-$> cd LabFix.AdminLte
-$> dotnet build
-
-# create foder Controllers , Views/Home , View/Shared
-$> mkdir Controllers Views
-$> mkdir -p Views/Home Views/Shared
-$> touch Controllers/HomeController.cs
-
-
-# create file
-$> touch Views/Home/Index.cshtml
-$> touch Views/Shared/_Layout.cshtml
+### create file
+```
+$ touch Views/Home/Index.cshtml
+$ touch Views/Shared/_Layout.cshtml
+```
 
 # Copy folder
 Download AdminLTE : https://adminlte.io/
-“bower_componets , dist”  from "AdminLTE.zip" ==> to ==> wwwroot
 
-## EDIT File ----------------------------------------
+copy "bower_componets , dist" from "AdminLTE.zip" to "wwwroot"
 
+### EDIT File ----------------------------------------
+```
 $> vi Controllers/HomeController.cs
-
+```
+```
 using Microsoft.AspNetCore.Mvc;
 
 namespace AdminLTE.WebUI.Controllers
@@ -37,8 +42,9 @@ namespace AdminLTE.WebUI.Controllers
        }
    }
 }
-
-## EDIT Startup --------------------------------------
+```
+### EDIT Startup --------------------------------------
+```
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -76,25 +82,27 @@ namespace AdminLTE.WebUI
        }
    }
 }
-
-## Edit _Layout.cshtml
+```
+### Edit _Layout.cshtml
 
 Copy content from AdminLTE.zip
-
+```
 /AdminLTE-2.4.3/pages/examples/blank.html ==>  /Shared/_Layout.cshtml
-
+```
 
 in _Layout.cshtml
 
 move all style & script to
+```
 <environment include="Development">
    ........
    And change "../../" to "~"
 </environment>
+```
 Complete code as below
 
-# Style ----------------------------------
-
+#### Style ----------------------------------
+```
  <environment include="Development">
    <link rel="stylesheet" href="~/bower_components/bootstrap/dist/css/bootstrap.min.css">
    <!-- Font Awesome -->
@@ -107,9 +115,9 @@ Complete code as below
        folder instead of downloading all of them to reduce the load. -->
    <link rel="stylesheet" href="~/dist/css/skins/_all-skins.min.css">
  </environment>
-
- # Script ----------------------------------
-
+```
+ #### Script ----------------------------------
+```
  <environment include="Development">
    <!-- jQuery 3 -->
    <script src="~/bower_components/jquery/dist/jquery.min.js"></script>
@@ -125,28 +133,30 @@ Complete code as below
    <script src="~/dist/js/demo.js"></script>
 
 </environment>
+```
 
-
-## -- Cut And move content -----------------------------------------------
+### -- Cut And move content -----------------------------------------------
+```
 <!-- Main content -->
 <section class="content">
 ......
 </section>
 <!-- /.content -->
-
+```
 into ====> "index.cshtmml
 
 And
-
+```
 <!-- Main content -->
 @RenderBody()
 <!-- /.content -->
+```
 
-
-## index.cshtml -----------------------------------------------
+### index.cshtml -----------------------------------------------
 
 Add line at header
-
+```
 @{
    Layout = "_Layout";
 }
+```
